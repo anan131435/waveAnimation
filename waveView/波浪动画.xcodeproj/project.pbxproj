@@ -14,6 +14,7 @@
 		737D98461DF264C800B811F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737D98451DF264C800B811F3 /* Assets.xcassets */; };
 		737D98491DF264C800B811F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737D98471DF264C800B811F3 /* LaunchScreen.storyboard */; };
 		737D98521DF2670F00B811F3 /* HZWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D98511DF2670F00B811F3 /* HZWaveLoadingView.m */; };
+		737D98551DF2745900B811F3 /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D98541DF2745900B811F3 /* PersonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		737D984A1DF264C800B811F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		737D98501DF2670F00B811F3 /* HZWaveLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWaveLoadingView.h; sourceTree = "<group>"; };
 		737D98511DF2670F00B811F3 /* HZWaveLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWaveLoadingView.m; sourceTree = "<group>"; };
+		737D98531DF2745900B811F3 /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonView.h; sourceTree = "<group>"; };
+		737D98541DF2745900B811F3 /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				737D98401DF264C800B811F3 /* ViewController.m */,
 				737D98501DF2670F00B811F3 /* HZWaveLoadingView.h */,
 				737D98511DF2670F00B811F3 /* HZWaveLoadingView.m */,
+				737D98531DF2745900B811F3 /* PersonView.h */,
+				737D98541DF2745900B811F3 /* PersonView.m */,
 				737D98421DF264C800B811F3 /* Main.storyboard */,
 				737D98451DF264C800B811F3 /* Assets.xcassets */,
 				737D98471DF264C800B811F3 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				737D98521DF2670F00B811F3 /* HZWaveLoadingView.m in Sources */,
+				737D98551DF2745900B811F3 /* PersonView.m in Sources */,
 				737D98411DF264C800B811F3 /* ViewController.m in Sources */,
 				737D983E1DF264C800B811F3 /* AppDelegate.m in Sources */,
 				737D983B1DF264C800B811F3 /* main.m in Sources */,
@@ -313,6 +319,7 @@
 				737D984F1DF264C800B811F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
